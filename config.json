@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "weather": {
+            "type": "sse",
+            "url": "http://172.16.2.34:13000/weather/mcp/sse"
+        },
+        "time": {
+            "type": "sse",
+            "url": "http://172.16.2.34:13000/time/mcp/sse"
+        }
+    }
+}

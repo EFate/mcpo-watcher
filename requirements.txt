@@ -1,0 +1,5 @@
+"fastapi[standard]"
+typer
+watchdog
+httpx
+python-dotenv

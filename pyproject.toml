@@ -1,0 +1,14 @@
+[project]
+name = "mcpo-watcher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115.13",
+    "httpx>=0.28.1",
+    "mcpo>=0.0.15",
+    "python-dotenv>=1.1.0",
+    "typer>=0.16.0",
+    "watchdog>=6.0.0",
+]

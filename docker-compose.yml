@@ -1,0 +1,18 @@
+services:
+  mcpo-monitor:
+    build: .
+    container_name: mcpo-watcher
+    restart: unless-stopped
+    env_file:
+      - .env
+
+    command: >
+      python run.py
+
+    ports:
+      - "13010:8000"
+      - "13011:8080"
+      
+    volumes:
+      # 实时映射config.json，实现动态配置
+      - ./config.json:/app/config.json
