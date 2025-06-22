@@ -1,5 +1,5 @@
 import asyncio
-import os  # [新增] 导入 os 模块以访问环境变量
+import os 
 import sys
 
 # 这个变量将持有 mcpo 子进程的引用
